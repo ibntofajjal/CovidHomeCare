@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+}
+
 :root {
     --site-default: #44B564;
 }
@@ -15,5 +20,61 @@
     text-decoration: underline 7px ;
 }
 .navs a:active {
-    text-decoration: wavy;
+    text-decoration: underline 7px ;
+}
+
+/* HEAD */
+.head {
+    background-image: url(/img/left-corona-bg.svg);
+    background-repeat: no-repeat;
+    background-position: 0 6rem;
+    margin-top: 7rem;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 2rem;
+}
+/* .head-content .row{
+    align-items: center;
+} */
+.head-content span {
+    margin-bottom: 3em !important;
+}
+.head-content h1 {
+    font-size: 62px;
+    margin-top: 30px;
+}
+.head-content p {
+    font-size: 22px;
+    color: #00000096;
+    margin-bottom: 2em;
+}
+.head-content a {
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: #44B564;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 656px) {
+    .head {
+        margin-top: 2rem;
+    }
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .head-img img{
+        width: 100%;
+    }
+    .head-content h1 {
+        font-size: 42px;
+    }
+    .head-content p {
+        font-size: 18px;
+    }
 }
