@@ -6,7 +6,7 @@ body {
 :root {
     --site-default: #44B564;
 }
-/* NVAS */
+/*=====================NVAS=====================*/
 .my-nav {
     background-color: #ffff ;
     border-bottom: 1px solid rgba(0, 0, 0, 0.075);
@@ -23,7 +23,7 @@ body {
     text-decoration: underline 7px ;
 }
 
-/* HEAD */
+/*=====================HEAD=====================*/
 .head {
     background-image: url(/img/left-corona-bg.svg);
     background-repeat: no-repeat;
@@ -36,9 +36,7 @@ body {
     align-items: center;
     grid-gap: 2rem;
 }
-/* .head-content .row{
-    align-items: center;
-} */
+
 .head-content span {
     margin-bottom: 3em !important;
 }
@@ -61,6 +59,9 @@ body {
 
 }
 
+
+
+/* ===================== =======MEDIAQUERY====== ===================== */
 @media screen and (max-width: 656px) {
     .head {
         margin-top: 2rem;
@@ -77,4 +78,26 @@ body {
     .head-content p {
         font-size: 18px;
     }
+}
+
+
+
+
+/* TAB */
+@media only screen and (min-width: 657px) and (max-width:968px) {
+        .head {
+            margin-top: 2rem;
+        }
+        .grid {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .head-img img{
+            width: 100%;
+        }
+        .head-content h1 {
+            font-size: 42px;
+        }
+        .head-content p {
+            font-size: 18px;
+        }
 }
