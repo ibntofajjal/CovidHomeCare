@@ -59,9 +59,34 @@ body {
 
 }
 
+/*=====================CASES=====================*/
+.cases-content {
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.075);
+}
+.recovered-txt {
+    color: #44B564;
+}
+.second-row p{
+    margin-top: 2rem;
+}
+.cases-content {
+    margin-top: 3em;
+}
 
 
+/*=====================WHAT WE DO?=====================*/
+.wwd {
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+.items {
+    margin-bottom: 50px;
+}
 /* ===================== =======MEDIAQUERY====== ===================== */
+
+/* PHONE */
 @media screen and (max-width: 656px) {
     .head {
         margin-top: 2rem;
