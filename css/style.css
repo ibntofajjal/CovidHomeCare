@@ -1,0 +1,19 @@
+:root {
+    --site-default: #44B564;
+}
+/* NVAS */
+.my-nav {
+    background-color: #ffff ;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+}
+.navs a{
+    font-size: 18px;
+    margin-left: 34px;
+}
+.navs a:hover {
+    color: var(--site-default) !important;
+    text-decoration: underline 7px ;
+}
+.navs a:active {
+    text-decoration: wavy;
+}
