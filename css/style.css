@@ -95,13 +95,15 @@ body {
 /*=====================PREVENTION _ CARDS=====================*/
 
 .myCard {
-    border-radius: 15px;
+    border-radius: 20px;
     border: none;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.075);
     padding-bottom: 1rem;
 }
 .myCard img {
     padding-top: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 .myCard h1 {
     border-bottom: 2px;
@@ -135,6 +137,99 @@ body {
     margin-left: auto;
     margin-top: 5rem;
 }
+ /*=====================CONTACT US=====================*/
+
+.contact {
+    background: linear-gradient(345.88deg, #64CF83 47.7%, #FFFFFF 47.71%);
+    padding-bottom: 2rem;
+ }
+ .contact-content {
+    margin-top: 10rem !important;
+ }
+ .contact-img img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5rem;
+}
+
+/* =========== 🚩 Contact Info 💭 ============*/
+.contact {
+    margin-top: 15rem;
+}
+.top-content h1{
+    padding-top: 4em;
+}
+.contact-section {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.144);
+    background-color: #fff;
+   
+}
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    padding: 1rem 10rem 5rem 10rem;
+}
+.contact-input {
+    margin-left: auto;
+}
+.contact-input input{
+    border: none;
+    outline: none;
+    width: 20em;
+    height: 4em;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(236, 236, 236);
+}
+.contact-input textarea {
+    border: none;
+    outline: none;
+    width: 20em;
+    height: 9em;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(236, 236, 236);
+}
+.contact-input a {
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: #44B564;
+    color: #fff;
+    text-decoration: none;
+
+}
+.doctor-info {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.danish {
+    display: flex;
+    align-items: center;
+}
+.nilesh {
+    display: flex;
+    align-items: center;
+}
+.icon {
+    font-size: 48px;
+    color: #44B564;
+}
+.footer {
+    margin-top: 10rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
 
 /* ===================== =======MEDIAQUERY====== ===================== */
 
@@ -154,6 +249,18 @@ body {
     }
     .head-content p {
         font-size: 18px;
+    }
+    .contact-img img{
+        width: 100%;
+    }
+    .symptoms-img img{
+        width: 100%;
+    }
+    .contact-info {
+         grid-template-columns: repeat(1, 1fr);
+    }
+    .footer {
+        flex-wrap: wrap;
     }
 }
 
@@ -177,4 +284,17 @@ body {
         .head-content p {
             font-size: 18px;
         }
+        .contact-img img{
+            width: 100%;
+        }
+        .symptoms-img img{
+            width: 100%;
+        }
+        .contact-info {
+            grid-template-columns: repeat(1, 1fr);
+            align-items: center;
+       }
+       .footer {
+        flex-wrap: wrap;
+    }
 }

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Covid Home Care || Joynal Bin Tofajjal</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">  <!--  Font Awesome CDN-->
     <link rel="stylesheet" href="css/bootstrap.min.css">   <!--  Bootstrap CSS-->
     <link rel="stylesheet" href="css/style.css">  <!--  CUSTOME CSS-->
 </head>
@@ -35,7 +36,7 @@
                 <a class="nav-link active text-dark" aria-current="page" href="#symptoms">Symptoms</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-dark" aria-current="page" href="#">Contact us</a>
+                <a class="nav-link active text-dark" aria-current="page" href="#contact">Contact us</a>
               </li>
             </ul> 
           </div>
@@ -130,39 +131,39 @@
           <p>Protect yourself and others around you by knowing the facts and taking appropriate precautions. <br> Floow advice provided by your local health authority.</p>
         </div>
             <!-- 🚩 CARD SECTION 💭 -->
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 my-5 myCards">
+            <div class="card-section container">
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 my-3">
+                  <div class="col">
+                    <div class="card h-100 myCard">
+                      <img src="img/using-mask.svg" class="card-img-top" alt="..."> <br>
+                      <div class="card-body">
+                        <h3 class="card-title">Wear a mask</h3>
+                        <p class="card-text">Masks can help prevent the spread of the virus from the person wearing the mask to others.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 myCard">
+                      <img src="img/hand-wash.svg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h3 class="card-title">Wash your hands often</h3>
+                        <p class="card-text">Clean your hands with soop and water, or alcohol-based hand sanitizer.</p>
+                      </div>
 
-              <div class="col">
-                <div class="card h-100 myCard">
-                  <img src="img/using-mask.svg" class="card-img-top" alt="..."> <br>
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Wear a mask</h5>
-                    <p class="card-text">Masks can help prevent the spread of the virus from the person wearing the mask to others.</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 myCard">
+                      <img src="img/social-distance.svg" class="card-img-top" alt="..."> <br><br>
+                      <div class="card-body">
+                        <h3 class="card-title">Physical distancing</h3>
+                        <p class="card-text">Maintain a safe distance especially from anyone who is coughinf or sneezing.</p>
+                      </div>
+
+                    </div>
                   </div>
                 </div>
-              </div>
-
-              <div class="col">
-                <div class="card h-100 myCard">
-                  <img src="img/hand-wash.svg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Wash your hands often</h5>
-                    <p class="card-text">Clean your hands with soop and water, or alcohol-based hand sanitizer.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card h-100 myCard">
-                  <img src="img/social-distance.svg" class="card-img-top" alt="..."> <br> <br>
-                  <div class="card-body">
-                    <h5 class="card-title text-center">Physical distancing</h5>
-                    <p class="card-text">Maintain a safe distance especially from anyone who is coughinf or sneezing.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
+          </div>
       </div>
     </section>
 
@@ -184,7 +185,60 @@
     </section>
 
 
+    <!-- ▓▒▒▒▒▒▒▒▒▒▒▒ CONTACT SECTION ▒▒▒▒▒▒▒▒▒▒▒▓ -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-section">
+          <div class="contact-content">
+            <div class="top-content text-center">
+              <h1>Need Help!</h1>
+              <span class="green-color">━━━━━━━━</span>
+              <p>Protect yourself and others around you by knowing the facts and taking appropriate <br> precautions. Floow
+                advice provided by your local health authority.</p>
+            </div>
+            <div class="contact-img">
+              <img src="img/pana.svg" alt="">
+            </div>
+          </div> <br> <br>
+    
+          <!-- 🚩 Contact Info 💭 -->
+          <div class="contact-info">
+            <div class="contact-number">
+              <div class="danish">
+                <div class="icon"><i class="fas fa-mobile-alt"></i></div>
+                <div class="doctor-info">
+                  <p>DANISH GOHEL <br> (+91) 9157999875</p>
+                </div>
+              </div><br>
 
+              <div class="nilesh">
+                <div class="icon"><i class="fas fa-mobile-alt"></i></div>
+                <div class="doctor-info">
+                  <p>NILESH GOHEL <br> (+91) 9157999875</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="contact-input">
+              <input type="text" name="Name" id="name" placeholder="Name"> <br><br>
+              <input type="number" name="Number" id="number" placeholder="Number"> <br><br>
+              <input type="text" name="Name" id="name" placeholder="Subject"> <br><br>
+              <textarea name="" id="" cols="30" rows="10" placeholder="How can i help you?"></textarea> <br><br>
+              <a href="#">Click to send --></a> <br><br>
+            </div>
+          </div>
+        </div>
+        <div  class="footer">
+          <div class="credit">
+            <p> © 2021, Design by Atik Gohel Develop by Joynal Bin Tofajjal</p>
+          </div>
+         <div class="top">
+          <a href="#">↑ Back to top</a>
+         </div>
+        </div>
+      </div>
+
+    </section>
 
 
     <!-- JavaScript -->
