@@ -236,7 +236,7 @@ body {
 /* PHONE */
 @media screen and (max-width: 656px) {
     .head {
-        margin-top: 2rem;
+        padding-top: 30px;
     }
     .grid {
         grid-template-columns: repeat(1, 1fr);
