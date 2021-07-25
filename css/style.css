@@ -92,7 +92,7 @@ body {
 }
 
 
-/*=====================CARDS=====================*/
+/*=====================PREVENTION _ CARDS=====================*/
 
 .myCard {
     border-radius: 15px;
@@ -120,6 +120,21 @@ body {
     color: #00000096;
     padding-top: 30px;
  }
+
+ /*=====================SYMPTOMS=====================*/
+ .symptoms {
+     background-image: url(/img/Symptoms-Corona.png);
+     background-repeat: no-repeat;
+ }
+.symptoms-content{
+    margin-top: 10rem !important;
+}
+.symptoms-img img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5rem;
+}
 
 /* ===================== =======MEDIAQUERY====== ===================== */
 
