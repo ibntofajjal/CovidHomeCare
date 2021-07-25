@@ -6,6 +6,9 @@ body {
 :root {
     --site-default: #44B564;
 }
+.green-color {
+    color: #44B564;
+}
 /*=====================NVAS=====================*/
 .my-nav {
     background-color: #ffff ;
@@ -80,10 +83,44 @@ body {
 .wwd {
     margin-top: 10em;
     margin-bottom: 10em;
+    background-image: url(/img/right-corona-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .items {
     margin-bottom: 50px;
 }
+
+
+/*=====================CARDS=====================*/
+
+.myCard {
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.075);
+    padding-bottom: 1rem;
+}
+.myCard img {
+    padding-top: 3rem;
+}
+.myCard h1 {
+    border-bottom: 2px;
+}
+.myCard p {
+    color: #00000096;
+    letter-spacing: 0.02em;
+    margin-top: 20px;
+}
+.top-content p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #00000096;
+    padding-top: 30px;
+ }
+
 /* ===================== =======MEDIAQUERY====== ===================== */
 
 /* PHONE */
